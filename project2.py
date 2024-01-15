@@ -12,7 +12,7 @@ from PIL import Image
 #TABLE CREATION
 mydb=psycopg2.connect(host='localhost',
                         user='postgres',
-                        password='Jameel123',
+                        password='Enter Your Password',
                         database='phonepe_data',
                         port='5432')
 cursor=mydb.cursor()
